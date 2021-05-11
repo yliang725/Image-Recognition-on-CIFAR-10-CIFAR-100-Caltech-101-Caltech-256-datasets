@@ -1,3 +1,12 @@
+  
+'''
+    File name: utils2.py
+    Author: Yue Liang
+    Date last modified: 12/20/2019
+    Python Version: 3.7
+    TensorFlow 2.1
+'''
+
 import numpy as np 
 import tensorflow as tf
 import random
