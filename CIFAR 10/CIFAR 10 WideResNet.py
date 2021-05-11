@@ -1,3 +1,11 @@
+'''
+    File name: Caltech101.py
+    Author: Yue Liang
+    Date last modified: 12/20/2019
+    Python Version: 3.7
+    TensorFlow 2.0
+'''
+
 from __future__ import print_function
 from keras.datasets import cifar10
 from keras.models import Model, Sequential
