@@ -1,5 +1,5 @@
 '''
-    File name: Caltech101.py
+    File name: CIFAR10-WideResNet.py
     Author: Yue Liang
     Date last modified: 12/20/2019
     Python Version: 3.7
