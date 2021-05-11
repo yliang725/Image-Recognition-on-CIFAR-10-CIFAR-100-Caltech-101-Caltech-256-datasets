@@ -3,7 +3,7 @@
     Author: Yue Liang
     Date last modified: 12/20/2019
     Python Version: 3.7
-    TensorFlow 2.1
+    TensorFlow 2.0
 '''
 
 import tensorflow as tf
