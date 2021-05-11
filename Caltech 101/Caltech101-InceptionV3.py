@@ -5,7 +5,7 @@
 
 
 '''
-    File name: Caltech101.py
+    File name: Caltech101-InceptionV3.py
     Author: Yue Liang
     Date last modified: 4/25/2020
     Python Version: 3.8
