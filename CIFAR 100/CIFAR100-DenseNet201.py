@@ -196,11 +196,7 @@ def train(batch_size, epoch, network, opt, train_path, test_path):
 
 # def test(args):
 def test(network,test_path,ckpt):
-    # train = unpickle('/data/ChuyuanXiong/up/cifar-100-python/train')
-    # train_data = train[b'data']
-    # x_train = train_data.reshape(train_data.shape[0], 3, 32, 32)
-    # x_train = x_train.transpose(0, 2, 3, 1)
-
+    
     test = unpickle(test_path)
     test_data  = test[b'data']
 
@@ -209,7 +205,6 @@ def test(network,test_path,ckpt):
     y_test= test[b'fine_labels']
 
     x_test = norm_images(x_test)
-    # x_test = norm_images_using_mean_var(x_test, *compute_mean_var(x_train))
 
     network = network
     ckpt = ckpt
